@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel="shortcut icon" href="/img/reboque.png" type="image/x-icon" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+  <script src="./js/gallery.js"></script>
+
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v12.0" nonce="HzdVFvqt"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Menu Mobile-->
+  <script type="text/javascript">
+  window.onload = function(){
+      document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display == 'flex') {
+              document.querySelector(".menu nav ul").style.display = 'none';
+          } else {
+              document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+      });
+  };
+  </script>
+  <!-- Fim Menu Mobile-->
+  
+
+  <title>Carretas Tincar</title>
+  <meta name="description" content="Carretas para barcos, jet ski, motos, animais, fazendinhas, entre outros!!">
+  <meta name="keywords" content="carreta carretas moto jetski jet ski animal animais fazendinhas golf carneiro ovelha tin car tincar barco barcos">
+</head>
+  <body>
+    <!--Inicio do Header -->
+      <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/novoHeaderTincar.gif" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                        <li><a href="#imgprod">PRODUTOS</a></li>
+                        <li><a href="#conteudo">SOBRE NÓS</a></li>
+                      
+                    </ul>
+                </nav>
+            </div>
+        </div>
+      </header>
+    <!-- Fim do Header -->
+
+
+    <!-- Inicio Banner Principal -->
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>TIN CAR</h1>
+                <h2>A 30 anos no mercado!</h2>
+                <a href="https://api.whatsapp.com/send?phone=5514996213549">
+                <button class="button button1">
+                <img src="https://img.icons8.com/cotton/64/000000/whatsapp--v3.png"/>
+                Solicite Orçamento</button></a>
+            </div>
+            
+        </div>
+    </section>
+    
+   <!-- Fim Banner Principal -->
+
+
+    <!-- Conteudos do Site -->
+    <div class="conteudo" id="conteudo">
+        
+      <div class="quemsomoimg">
+        <img src="./img/1-quem-somos.png" widht="300" heigt="300" alt="">
+      </div>
+
+      <div class="quemsomos2">
+        <h1>Sobre Nós</h1>
+        <h4>A empresa de Carretas TINCAR, está atuando no mercado desde 1991, na fabricação de reboques leves, nas linhas de embarcação, carga animal, entre outras.
+         Sempre aliando confiabilidade, segurança e qualidade, com o menor preço possível.</h4>
+      </div>
+
+    </div>
+    <!-- Inicio da Galeria de Produtos-->
+   <center><img class="imgprod" id="imgprod" src="./img/nossos-produtos.png" alt=""></center> 
+    <div class="conteudo2" id="conteudo2">
+      
+      <div class="container">
+        <div class="row">
+
+
+          <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">Todas</button>
+            <button class="btn btn-default filter-button" data-filter="animais2eixos">Para Animais(2 eixos)</button>
+            <button class="btn btn-default filter-button" data-filter="animais1eixo">Para Animais (1 Eixo)</button>
+            <button class="btn btn-default filter-button" data-filter="gerador">Grupo Gerador e Máquinas(2 Eixos )</button>
+            <button class="btn btn-default filter-button" data-filter="golf">Campo de Golf</button>
+            <button class="btn btn-default filter-button" data-filter="barcos">Para Barcos</button>
+            <button class="btn btn-default filter-button" data-filter="bicicleta">Para Bicicletas</button>
+            <button class="btn btn-default filter-button" data-filter="jetski">Para Jetski</button>
+            <button class="btn btn-default filter-button" data-filter="motos">Para Motos</button>
+            <button class="btn btn-default filter-button" data-filter="quad">Para Quadríciculo</button>
+            <button class="btn btn-default filter-button" data-filter="faz">Fazendinha</button>
+            <button class="btn btn-default filter-button" data-filter="contai">Construção Cívil (Container)</button>
+
+            
+          </div>
+          <!-- Animais 2 eixo -->
+    
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter animais2eixos">
+               <img src="./img/animais2eixos/animais2eixos.jpg" class="img-responsive">
+          </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter all animais2eixos">
+            <img src="./img/animais2eixos/animais2eixos2.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter animais2eixos">
+            <img src="./img/animais2eixos/animais2eixos3.jpg" class="img-responsive">
+          </div>
+
+
+          <!-- Animais 1 eixo -->
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter animais1eixo">
+                <img src="./img/animais1eixo/animais1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter animais1eixo">
+              <img src="./img/animais1eixo/animais2.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter animais1eixo">
+              <img src="./img/animais1eixo/animais3.jpg" class="img-responsive">
+          </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter animais1eixo">
+            <img src="./img/animais1eixo/animais4.jpg" class="img-responsive">
+          </div>
+          <!--FIm Animais 1 eixo -->
+
+          <!--Gerador -->
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gerador">
+                <img src="./img/gerador/gerador1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gerador">
+            <img src="./img/gerador/gerador2.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter gerador">
+          <img src="./img/gerador/gerador3.jpg" class="img-responsive">
+          </div>
+          <!--Fim Gerador -->
+          
+          <!--Golf-->
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter golf">
+                <img src="./img/gof/golf.bin" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter golf">
+                <img src="./img/gof/golf1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter golf">
+            <img src="./img/gof/golf3.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter golf">
+            <img src="./img/gof/golf4.jpg" class="img-responsive">
+          </div>
+
+          <!--FIM GOLF-->
+
+          <!--Barcos-->
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter barcos">
+             <img src="./img/barcos/barcos1.jpg" class="img-responsive">
+          </div>
+      
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter barcos">
+            <img src="./img/barcos/barcos2.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter barcos">
+            <img src="./img/barcos/barcos3.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter barcos">
+            <img src="./img/barcos/barcos4.jpg" class="img-responsive">
+          </div>
+          <!--FIM Barcos-->
+
+          <!--Bicicletas-->
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bicicleta">
+            <img src="./img/bicicletas/bicicleta1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bicicleta">
+            <img src="./img/bicicletas/bicicleta2.jpg" class="img-responsive">
+          </div>
+          <!--fim bicicleta-->
+
+          <!--Jetsky-->
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter jetski">
+            <img src="./img/jetsky/jet1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter jetski">
+            <img src="./img/jetsky/jet2.jpg" class="img-responsive">
+          </div>
+
+          <!--Fim Jetsky-->
+
+          
+          <!--Motos-->
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter motos">
+            <img src="./img/moto/moto1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter motos">
+            <img src="./img/moto/moto2.jpg" class="img-responsive">
+          </div>
+
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter motos">
+            <img src="./img/moto/moto3.jpg" class="img-responsive">
+          </div>
+          <!--Fim Motos-->
+
+
+          <!--Quad-->
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter quad">
+            <img src="./img/quad/quad1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter quad">
+            <img src="./img/quad/quad2.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter quad">
+            <img src="./img/quad/quad3.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter quad">
+            <img src="./img/quad/quad4.jpg" class="img-responsive">
+          </div>
+
+
+          <!--quad-->
+
+          <!--fazendinha-->
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter faz">
+            <img src="./img/fazendinha/faz1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter faz">
+            <img src="./img/fazendinha/faz2.jpg" class="img-responsive">
+          </div>
+          <!--fazendinha-->
+
+
+          <!--container-->
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter contai">
+            <img src="./img/container/container1.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter contai">
+            <img src="./img/container/container2.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter contai">
+            <img src="./img/container/container3.jpg" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter contai">
+            <img src="./img/container/container4.jpg" class="img-responsive">
+          </div>
+          <!--container-->
+
+
+            
+          
+
+
+        </div>
+      </div>
+    </div>
+
+      
+    <!-- Endereço e contatos-->
+    <div class="contato" id="contato">
+      <div class="tituloendereco">
+        <h1>Como nos encontrar:</h1>
+       <h3> <i class="fas fa-map-marker-alt"></i> Rua Itagiba de Moraes Pupo, nº 165
+        <br>
+        Jardim Alvorada- São Manuel
+        <br>
+        <i class="fas fa-phone-volume"></i>(14)3841.4977
+      </div>
+      <div class="mapa">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3931173555466!2d-48.57429258503731!3d-22.750787785091365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c73010ee986aef%3A0x6e6aebe897519859!2sR.%20Itagib%C3%A1%20de%20Mor%C3%A3es%20Pupo%2C%20165%20-%20Jardim%20Alvorada%2C%20S%C3%A3o%20Manuel%20-%20SP%2C%2018650-000!5e0!3m2!1spt-BR!2sbr!4v1635626435316!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+    </div>
+    <!-- Fim-->
+
+    <!-- Redes Sociais-->
+    <div class="facebook">
+      <div class="sociais">
+        <h1>Facebook</h1>
+        <h3>Curta nossa página e conheça nosso trabalho!</h3>
+      </div>
+      <div class="fb-page" data-href="https://www.facebook.com/Carretas-Tincar-712725815527053" data-tabs="" data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Carretas-Tincar-712725815527053" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Carretas-Tincar-712725815527053">Carretas Tincar</a></blockquote></div>
+       
+    </div>
+    <!-- FIm-->
+
+    <!-- Inicio copy-->
+    <div class="copy">
+
+
+      <a href="https://www.carretastincar.com.br/">
+        <i class="far fa-copyright">Carretas TinCar 2021</i></a>
+
+      <a href="https://www.facebook.com/lmatheusfreitas">
+        <i class="fas fa-code">Desenvolvido por Lucas Freitas</i></a>
+    </div>  
+    <!-- Fim copy-->
+
+
+    <script src="https://kit.fontawesome.com/b2d9ccd74a.js" crossorigin="anonymous"></script>     <!-- icones-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+
+    <a href="https://api.whatsapp.com/send?phone=5514996213549" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+     z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+       
+         </a>
+ 
+  </body>
+</html>

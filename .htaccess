@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{21} 80
+RewriteRule ^(.*)$ https://www.carretastincar/$1 [R,L]
